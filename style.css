@@ -1,0 +1,102 @@
+.container {
+    background-color: #81808028;
+    font-family: Arial, sans-serif;
+    display: flex; /*Le damos flexibilidad a nuestro container*/
+    flex-direction: column; /*Lo colocamos tipo columna*/
+    align-items: center;
+    padding: 30px; /*agregamos un relleno*/
+  }
+
+
+/*Modificamos elc ontenedor del titulo pra ocultar parte de la imagen y alineamos el texto*/
+.container .title{
+    text-align: center;
+    width: 100vw; /*agregamos una vista del 100
+    %*/
+    max-width: 1000px;
+    min-width: 320px;
+    height: 580px;
+    overflow: hidden; /*ocultamos parte de la imagen*/
+    margin: auto;
+}
+
+.container .title .img {
+    width: 100%;
+    max-width: 740px; /* Aumenta el valor máximo de ancho */
+    height: auto; /*matiene el tamaño original*/
+    display: block; /*Convertimos la imagen en un bloque */
+    margin: 0 auto; /*centamos horizontalmente*/
+    border-radius: 15px;
+  }
+
+.container .sub-title{
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+/*En este apartado modificamos la parte de los tiempos de preparación*/
+.container1 {
+    display: flex; /*hacemos el contenedor un flexbox*/
+    gap: 25px;
+    height: auto;
+    height: flex;
+  }
+  
+  .item {
+    height: auto;
+    background-color: #f0efefd8; /*damos color*/
+    padding: 20px; /*agregamos relleno*/
+    text-align: center; 
+    border-radius: 25px; /*agrgar bordes redondeados*/
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* agregamos una sombra*/
+    height: flex;
+  }
+  
+  .time {
+    font-size: 24px; 
+    font-weight: bold; /*tipo de letra*/
+    margin-bottom: 7px; /*Se le da margen al texto del tiempo*/
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #666;
+  }
+
+.main-ingredients{
+
+    padding: 10px;
+
+}
+.lista1{
+
+    list-style-type: none; /* Esto elimina las viñetas */
+    line-height: 2.5;
+    height: flex;
+    padding: 10px;
+}
+.lista1 small {
+    font-size: 12px;
+    font-size: italic;
+    color: #666;
+  }
+
+.main-instructions{
+    padding: 10px;
+}
+.lista2{
+    padding: 10px;
+    list-style-type: none; /* Esto elimina las viñetas */
+    line-height: 2.5;
+    height: flex;
+}
+.lista3{
+    padding: 10px;
+    list-style-type: none; /* Esto elimina las viñetas */
+    line-height: 2.5;
+    height: flex;
+}
+
+
+
